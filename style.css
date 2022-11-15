@@ -1,0 +1,46 @@
+body
+{
+margin: 0 0;
+}
+
+.container, img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.galaxy {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 30px;
+    top: -20px;
+}
+
+ul{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    justify-content: right;
+    left: -10px;
+    top: -80px;
+}
+
+li{
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.welcome{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    top: 20vh;
+}
